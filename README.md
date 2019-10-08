@@ -1,5 +1,7 @@
-This is demo project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.
-Contributors: download link: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarwal](https://github.com/Alakazam03))
+# Open Source India Conference
+This is demo project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
+Workshop link: [Devops Framework, OSI](https://www.opensourceindia.in/devops-framework-in-practice/) </br>
+Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarwal](https://github.com/Alakazam03)
 
 
 # Open Source Tools 
@@ -7,16 +9,12 @@ Contributors: download link: [Nilesh Singh](https://github.com/nileshsingh067), 
 2. Jenkins for continuous integration
 3. Docker for containerisation
 4. ELK stack for big data analysis
-5. Jmeter for visulizations.
+5. Rundeck for continuous deployment
 
 # Jenkins
 Suppose, you have a team of 10 people. Everybody is writing code and wants to test their changes. Someone needs to collect all the new packages and then compile it. But if an error arises its very difficult to figure out which piece of code caused that error.</br>
 
 Jenkins is a continuous integration tools. Jenkins maintains a pipeline that will compile, build and test the code maintaining a context to the user. If found any failure, jenkins can alert the correspoding contributor.
-
-
-
-
 
 # Docker
 Docker is a continous delievery tool. 
