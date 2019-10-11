@@ -8,6 +8,8 @@ services:
     ports:
       - "8080:8080"
       - "8085:8085"
+    volumes:
+      - ~/apachelogs:/home/workshop/apache-tomcat-8.5.46/logs/
     networks:
       - elk
 
@@ -80,3 +82,4 @@ networks:
 
 volumes:
   elasticsearch:
+  apachelogs:
