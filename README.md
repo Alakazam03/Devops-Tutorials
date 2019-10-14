@@ -1,8 +1,34 @@
 # Open Source India Conference
+
 This is demo project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
 Workshop link: [Devops Framework, OSI](https://www.opensourceindia.in/devops-framework-in-practice/) </br>
 Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarwal](https://github.com/Alakazam03)
 
+
+## Set-up
+
+  **Pre-requisties**
+  * Install git
+  * Install docker: [Docker](https://docs.docker.com/install/) </br>
+  * Install docker-compose: [Docker-Compose](https://docs.docker.com/compose/install/) </br>
+
+  **Clone the github repository**
+  ```
+    git clone https://github.com/Alakazam03/Devops-Tutorials.git
+  ```
+  **Start docker-compose**
+  
+```
+docker-compose build
+docker-compose up
+```
+
+All docker containers, named app, logstash, elasyic search, kibana will start. Each will be exposed and accessible at, via mentioned below.</br>
+**Exposed ports:**
+* app: localhost:8000/thebooklenders
+* elastic search: localhost:9200
+* kibana: localhost:5601
+* logstash: localhost:9600
 
 ## Open Source Tools 
 
@@ -34,13 +60,6 @@ Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarw
    ./elasticsearch
     ```
 
-## Run-up
-
-  **Run docker in interactive mode**
-  
-```
-docker run -p 8080:8080 -p 8085:8085 -it nileshsingh067iiitb_2019_ostl_devops_framework /bin/bash
-```
 
 ## Jenkins
 
