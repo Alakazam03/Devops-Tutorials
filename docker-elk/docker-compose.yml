@@ -9,7 +9,7 @@ services:
       - "8080:8080"
       - "8085:8085"
     volumes:
-      - ~/apachelogs:/home/workshop/apache-tomcat-8.5.46/logs/
+      - ./apachelogs:/home/workshop/apache-tomcat-8.5.46/logs/
     networks:
       - elk
 
@@ -48,6 +48,10 @@ services:
       - type: bind
         source: ./logstash/pipeline
         target: /usr/share/logstash/pipeline
+        read_only: true
+      - type: bind
+        source: ./apachelogs
+        target: /usr/share/logstash/logs
         read_only: true
     ports:
       - "5000:5000"
