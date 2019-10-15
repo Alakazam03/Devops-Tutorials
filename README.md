@@ -60,7 +60,7 @@ Git is Open Source and you can create a public or private file system which can 
     git version 2.17.1
   ```
 
-## Git Configuration
+## Git configuration
 
   ```
     git config --global user.name "Your User Name"
@@ -81,26 +81,25 @@ Git is Open Source and you can create a public or private file system which can 
 
 Maven is a build automation tool primarily used for java projects.Build process for a simple peice of code like a "hello world!" would not be complicated but in the case of huge projects there might be several dependencies and plugins required to make an executable.In such cases , a set of instructions to add the plugins and dependencies required must be given during build automation. Maven takes this information from pom.xml file. Therefore to use maven for build automation pom.xml file is required.
 
-  ## Maven Installation
+## Maven Installation
 
-    :exclamation: Before installing maven jdk must be install on your system. [Click Here to install JDK](https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html)
+Before installing maven jdk must be installed on your system. [Click Here to install JDK](https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html)
+  ```
+    apt install maven
+  ```
+  You can confirm that you have installed maven correctly by running the following command:
 
-    ```
-      apt install maven
-    ````
-    You can confirm that you have installed maven correctly by running the following command:
-
-    ```
-      mvn -version
-    ```
-    ```
-      Output
-      Apache Maven 3.6.0
-      Maven home: /usr/share/maven
-      Java version: 1.8.0_201, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-oracle/jre
-      Default locale: en_IN, platform encoding: UTF-8
-      OS name: "linux", version: "4.15.0-65-generic", arch: "amd64", family: "unix"
-    ```
+  ```
+    mvn -version
+  ```
+  ```
+    Output
+    Apache Maven 3.6.0
+    Maven home: /usr/share/maven
+    Java version: 1.8.0_201, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-oracle/jre
+    Default locale: en_IN, platform encoding: UTF-8
+    OS name: "linux", version: "4.15.0-65-generic", arch: "amd64", family: "unix"
+  ```
 # Jenkins
 
 Suppose, you have a team of 10 people. Everybody is writing code and wants to test their changes. Someone needs to collect all the new packages and then compile it. But if an error arises its very difficult to figure out which piece of code caused that error.</br>
