@@ -139,23 +139,23 @@ In a large business enterprise, there are various microservices handling differe
 # Elastic Search
 
   Elasticsearch is a distributed open-source search engine released under Apache license. It is a REST API layer over Apache’s Lucene. It provides horizontal scalability, reliability and capability of a real-time search through the documents. Elasticsearch is able to search faster because it uses indexing to search over documents.
-  ## Set-up
+## Set-up
 
   Download centos docker image
     
-    **Download ElasticSearch by downloading tar file**
+  **Download ElasticSearch by downloading tar file**
 
-    ```
+  ```
     curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.0-linux-x86_64.tar.gz
-    ```
+  ```
 
-    **Untar to extract the files from tar**
+  **Untar to extract the files from tar**
 
-    ```
+  ```
     tar -xvf elasticsearch-7.4.0-linux-x86_64.tar.gz
-    ```
+  ```
 
-    **Run the process**
+  **Run the process**
     ```
     cd elasticsearch-7.4.0/bin
     ./elasticsearch
