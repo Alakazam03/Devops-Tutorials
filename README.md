@@ -25,10 +25,10 @@ docker-compose up
 
 All docker containers, named app, logstash, elasyic search, kibana will start. Each will be exposed and accessible at, via mentioned below.</br>
 **Exposed ports:**
-* app: localhost:8000/thebooklenders
-* elastic search: localhost:9200
-* kibana: localhost:5601
-* logstash: localhost:9600
+* app: http://localhost:8080/thebooklenders
+* elastic search: http://localhost:9200
+* kibana: http://localhost:5601
+* logstash: http://localhost:9600
 
 ## Open Source Tools 
 
