@@ -1,6 +1,8 @@
 # Open Source India Conference
 
-This is demo project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
+## Overview
+
+Devops Framework project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
 Workshop link: [Devops Framework, OSI](https://www.opensourceindia.in/devops-framework-in-practice/) </br>
 Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarwal](https://github.com/Alakazam03)
 
@@ -8,27 +10,39 @@ Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarw
 ## Set-up
 
   **Pre-requisties**
+
   * Install git
   * Install docker: [Docker](https://docs.docker.com/install/) </br>
   * Install docker-compose: [Docker-Compose](https://docs.docker.com/compose/install/) </br>
 
   **Clone the github repository**
+
   ```
+    mkdir workshop
+    cd workshop
     git clone https://github.com/Alakazam03/Devops-Tutorials.git
+    cd Devops-Tutorials/docker-elk
   ```
+
   **Start docker-compose**
-  
+    
 ```
-docker-compose build
-docker-compose up
+  
+  docker-compose build
+  docker-compose up
 ```
 
 All docker containers, named app, logstash, elasyic search, kibana will start. Each will be exposed and accessible at, via mentioned below.</br>
+
 **Exposed ports:**
-* app: http://localhost:8080/thebooklenders
-* elastic search: http://localhost:9200
-* kibana: http://localhost:5601
-* logstash: http://localhost:9600
+
+app: http://localhost:8080/thebooklenders
+elastic search: http://localhost:9200
+kibana: http://localhost:5601
+logstash: http://localhost:9600
+
+
+
 
 ## Open Source Tools 
 
@@ -134,8 +148,6 @@ In a large business enterprise, there are various microservices handling differe
   2. As each component of a product is deployed as a separate container, it is straightforward to scale 
      application.
 
-
-
 # Elastic Search
 
   Elasticsearch is a distributed open-source search engine released under Apache license. It is a REST API layer over Apache’s Lucene. It provides horizontal scalability, reliability and capability of a real-time search through the documents. Elasticsearch is able to search faster because it uses indexing to search over documents.
@@ -166,10 +178,15 @@ In a large business enterprise, there are various microservices handling differe
 
 Kibana is a tool to visualise indexed data in real-time. It provides a variety of visualisations to get the best meaning out of your data. Dashboards according to use case can be created and get updated with new data automatically. 
 
+
 # Rundeck
 
 # Logstash
 
 Logstash is an open-source, a server-side tool that is used to collect, parse and then process data centrally into a structured form. It provides various filters that enhance the insights and human readability.
 
+# Terraform
+
+
+Terraform is an open source tool which lets you manage infrastructure-as-code (IAC) which can be reviwed, automated and reused emitting out manual errors.
 ***

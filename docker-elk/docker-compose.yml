@@ -1,9 +1,10 @@
+#Author: Vaibhav Aggarwal
 version: '3.2'
 
 services:
 
   app:
-    image: nileshsingh067/iiitb_ostl_2019
+    image: nileshsingh067/iiitb_ostl_2019:latest
     tty: true
     ports:
       - "8080:8080"
