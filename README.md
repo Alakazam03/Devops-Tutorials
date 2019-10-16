@@ -1,6 +1,8 @@
 # Open Source India Conference
 
-This is demo project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
+## Overview
+
+Devops Framework project pipeline for Open Source Conference by OSTL labs, IIIT-Bangalore.</br>
 Workshop link: [Devops Framework, OSI](https://www.opensourceindia.in/devops-framework-in-practice/) </br>
 Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarwal](https://github.com/Alakazam03)
 
@@ -8,23 +10,32 @@ Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarw
 ## Set-up
 
   **Pre-requisties**
+
   * Install git
   * Install docker: [Docker](https://docs.docker.com/install/) </br>
   * Install docker-compose: [Docker-Compose](https://docs.docker.com/compose/install/) </br>
 
   **Clone the github repository**
+
   ```
+    mkdir workshop
+    cd workshop
     git clone https://github.com/Alakazam03/Devops-Tutorials.git
+    cd Devops-Tutorials/docker-elk
   ```
+
   **Start docker-compose**
-  
+    
 ```
-docker-compose build
-docker-compose up
+  
+  docker-compose build
+  docker-compose up
 ```
 
 All docker containers, named app, logstash, elasyic search, kibana will start. Each will be exposed and accessible at, via mentioned below.</br>
+
 **Exposed ports:**
+
 * app: localhost:8000/thebooklenders
 * elastic search: localhost:9200
 * kibana: localhost:5601
@@ -38,6 +49,7 @@ All docker containers, named app, logstash, elasyic search, kibana will start. E
 4. ELK stack for big data analysis
 5. Rundeck for continuous deployment
 
+<<<<<<< Updated upstream
 # Git
 
 Git is a distributed version control system, it is a tool to manage your project source code history. 
@@ -101,6 +113,9 @@ Before installing maven jdk must be installed on your system. [Click Here to ins
     OS name: "linux", version: "4.15.0-65-generic", arch: "amd64", family: "unix"
   ```
 # Jenkins
+=======
+## Jenkins
+>>>>>>> Stashed changes
 
 Suppose, you have a team of 10 people. Everybody is writing code and wants to test their changes. Someone needs to collect all the new packages and then compile it. But if an error arises its very difficult to figure out which piece of code caused that error.</br>
 
@@ -134,7 +149,11 @@ In a large business enterprise, there are various microservices handling differe
   2. As each component of a product is deployed as a separate container, it is straightforward to scale 
      application.
 
+<<<<<<< Updated upstream
 
+=======
+## Logstash
+>>>>>>> Stashed changes
 
 # Elastic Search
 
@@ -166,10 +185,15 @@ In a large business enterprise, there are various microservices handling differe
 
 Kibana is a tool to visualise indexed data in real-time. It provides a variety of visualisations to get the best meaning out of your data. Dashboards according to use case can be created and get updated with new data automatically. 
 
+<<<<<<< Updated upstream
 # Rundeck
 
 # Logstash
 
 Logstash is an open-source, a server-side tool that is used to collect, parse and then process data centrally into a structured form. It provides various filters that enhance the insights and human readability.
+=======
+## Terraform
+>>>>>>> Stashed changes
 
+Terraform is an open source tool which lets you manage infrastructure-as-code (IAC) which can be reviwed, automated and reused emitting out manual errors.
 ***
