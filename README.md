@@ -27,7 +27,6 @@ Contributors: [Nilesh Singh](https://github.com/nileshsingh067), [Vaibhav Aggarw
   **Start docker-compose**
     
 ```
-  
   docker-compose build
   docker-compose up
 ```
@@ -36,7 +35,7 @@ All docker containers, named app, logstash, elasyic search, kibana will start. E
 
 **Exposed ports:**
 
-* App: http://localhost:8080/thebooklenders </br>
+* App: http://localhost:8080/thebooklender </br>
 * Elastic search: http://localhost:9200</br>
 * Kibana: http://localhost:5601</br>
 * Logstash: http://localhost:9600
